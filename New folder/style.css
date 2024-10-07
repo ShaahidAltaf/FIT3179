@@ -1,0 +1,17 @@
+
+#gf {
+    text-align: center;
+    color: green;
+
+}
+
+.f1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.f2 img{
+    height: 60vh;
+}
+

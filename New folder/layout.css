@@ -1,0 +1,14 @@
+html, body{
+    background-color: #2ad5bc;
+}
+
+h1 {
+    text-align: center;
+    color: #527298;
+    font-size: 40px ;
+}
+
+.pure-u-1 img{
+    width: 100vw;
+    height: 20vw;   
+}

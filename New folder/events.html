@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Triggering Events in HTML</title>
+        <!-- The style sheet applied to this document. -->
+        <link rel="stylesheet" href="events.css">
+        <script src="events.js"></script>
+    </head>
+    <body>
+
+        <h1>Triggering click events on HTML elements</h1>
+        <!-- A click on this button will trigger an event. -->
+        <button onclick=incrementCounter()>Increase the Counter</button>
+        <!-- The text and the numberOfClicks attribute change when the button is
+        clicked. -->
+        <span id="counter" numberOfClicks="0">0</span>
+        <!-- This .js file is loaded and then runs after all other elements are
+        loaded. -->
+        
+        <div class="chart">
+            
+            <button id="button" onclick=toggleVisibility()>click to toggle chart visibility</button>
+            <br></br>
+            <img src="dog1.jpg" id="chart">
+        </div>
+    </body>
+</html>
